@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "agenda.schema.json",
+  "title": "agenda",
+  "description": "Agenda personal.",
+  "type": "object",
+  "properties": {
+    "agenda": {
+      "description": "Agenda personal.",
+      "type": "object",
+      "nombre_completo": {
+        "type": "object",
+        "description": "nombre_completo",
+        "properties": {
+          "nombre":{
+            "type": "string",
+            "description": "Nombre"
+          },
+          "apellido1":{
+            "type": "string",
+            "description": "Primer apellido"
+          },
+          "apellido2":{
+            "type": "string",
+            "description": "Segundo apellido"
+          }
+
+        }
+      },
+      "apodo":{
+        "type": "string",
+        "description": "apodo"
+      }
+    }
+  }
+}

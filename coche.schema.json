@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "coche.schema.json",
+  "title": "coche",
+  "description": "Mi coche",
+  "type": "object",
+  "properties": {
+    "vehiculo": {
+      "type": "array",
+      "description": "Lista de vehículos en el concesionario",
+      "items": {
+        "type": "object",
+        "properties": {
+          "marca": {
+            "type": "string",
+            "description": "Marca del coche"
+          },
+          "modelo": {
+            "type": "string",
+            "description": "Modelo del coche"
+          },
+          "motor": {
+            "type": "object",
+            "description": "Información del motor",
+            "properties": {
+              "@combustible": {
+                "type": "string",
+                "description": "Tipo de combustible"
+              },
+              "#text": {
+                "type": "string",
+                "description": "Nombre del motor"
+              }
+            }
+          },
+          "matricula": {
+            "type": "string",
+            "description": "Matrícula del coche"
+          },
+          "km": {
+            "type": "string",
+            "description": "Kilometraje del coche"
+          },
+          "precio_inicial": {
+            "type": "string",
+            "description": "Precio inicial del coche"
+          },
+          "precio_oferta": {
+            "type": "string",
+            "description": "Precio en oferta del coche"
+          },
+          "extra": {
+            "type": "array",
+            "description": "Extras del coche",
+            "items": {
+              "type": "object",
+              "properties": {
+                "@valor": {
+                  "type": "string",
+                  "description": "Precio del extra"
+                },
+                "#text": {
+                  "type": "string",
+                  "description": "Nombre del extra"
+                }
+              }
+            }
+          },
+          "foto": {
+            "type": "array",
+            "description": "Fotos del coche",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

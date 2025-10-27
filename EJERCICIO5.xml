@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plataforma>
+    <series>
+        <serie>
+            <titulo>Stranger Things</titulo>
+            <temporada>
+                <numero>1</numero>
+                    <episodio>1</episodio>
+                    <titulo>La desaparicion de Bill Byers</titulo>
+                    <episodio>2</episodio>
+                    <titulo>La loca de la calle Maple</titulo>
+            </temporada>
+        </serie>
+    </series>
+</plataforma>

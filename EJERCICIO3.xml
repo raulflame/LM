@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<librerias>
+    <libreria nombre="Librería Electrónica A">
+        <libro>
+            <isbn>978-3-16-148410-0</isbn>
+            <titulo>Introducción a XML</titulo>
+            <nivel>básico</nivel>
+            <autores>
+                <autor>Juan Pérez</autor>
+                <autor>María López</autor>
+            </autores>
+            <editorial>Editorial ABC</editorial>
+            <fecha_publicacion>2021-05-12</fecha_publicacion>
+            <web>http://libreriaA.com/libros/introduccion-xml</web>
+            <precio>29.99</precio>
+        </libro>
+        <libro>
+            <isbn>978-1-234-56789-7</isbn>
+            <titulo>XML Avanzado</titulo>
+            <nivel>avanzado</nivel>
+            <autores>
+                <autor>Andrés Martínez</autor>
+            </autores>
+            <editorial>Editorial XYZ</editorial>
+            <fecha_publicacion>2020-11-30</fecha_publicacion>
+            <web>http://libreriaA.com/libros/xml-avanzado</web>
+            <precio>45.50</precio>
+        </libro>
+        <libro>
+            <isbn>978-0-987-65432-1</isbn>
+            <titulo>Tratamiento Intermedio de XML</titulo>
+            <nivel>intermedio</nivel>
+            <autores>
+                <autor>Ana García</autor>
+                <autor>Carlos Fernández</autor>
+            </autores>
+            <editorial>Editorial LMN</editorial>
+            <fecha_publicacion>2022-02-15</fecha_publicacion>
+            <web></web>
+            <precio>35.00</precio>
+        </libro>
+    </libreria>
+
+    <libreria nombre="Librería Digital B">
+        <libro>
+            <isbn>978-3-16-148411-7</isbn>
+            <titulo>XML para Principiantes</titulo>
+            <nivel>básico</nivel>
+            <autores>
+                <autor>Laura Ruiz</autor>
+            </autores>
+            <editorial>Editorial DEF</editorial>
+            <fecha_publicacion>2019-08-23</fecha_publicacion>
+            <web>http://libreriaB.com/libros/xml-principiantes</web>
+            <precio>27.75</precio>
+        </libro>
+        <libro>
+            <isbn>978-1-567-89012-3</isbn>
+            <titulo>Dominando XML</titulo>
+            <nivel>avanzado</nivel>
+            <autores>
+                <autor>Roberto Sánchez</autor>
+            </autores>
+            <editorial>Editorial GHI</editorial>
+            <fecha_publicacion>2023-01-05</fecha_publicacion>
+            <web>http://libreriaB.com/libros/dominando-xml</web>
+            <precio>52.00</precio>
+        </libro>
+        <libro>
+            <isbn>978-0-321-98765-4</isbn>
+            <titulo>XML: Un enfoque intermedio</titulo>
+            <nivel>intermedio</nivel>
+            <autores>
+                <autor>Elena Torres</autor>
+                <autor>Juan Carlos Morales</autor>
+            </autores>
+            <editorial>Editorial JKL</editorial>
+            <fecha_publicacion>2021-12-12</fecha_publicacion>
+            <web></web>
+            <precio>40.00</precio>
+        </libro>
+    </libreria>
+</librerias>

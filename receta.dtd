@@ -1,0 +1,7 @@
+<!ELEMENT receta (nombre, ingredientes+, elaboracion)>
+        <!ELEMENT ingredientes (ingrediente+)>
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT elaboracion (#PCDATA)>
+        <!ELEMENT ingrediente (#PCDATA)>
+        <!ATTLIST receta raciones CDATA #REQUIRED  dificultad (baja | media | alta) "media">
+        <!ATTLIST ingrediente cantidad CDATA #IMPLIED unidad CDATA #IMPLIED>

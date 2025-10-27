@@ -1,0 +1,31 @@
+---
+Libros:
+  -Libreria Electronica A:
+    disponible:
+      tiempo: 24
+      unidad: horas
+    autor: Laura Ruiz
+    formato: Rustica
+    publicacion: 2019
+    precio:
+      cantidad: 27,75
+      moneda: EUR
+    descuento:
+      cantidad: 5
+    enlacelibro:
+      isbn: "978-3-16-148411-7"
+  -XML Un enfoque intermedio:
+    disponible:
+      tiempo: 24
+      unidad: horas
+    autor: Elena Torres
+    formato: Rustica
+    publicacion: 2021
+    precio:
+      cantidad: 40,00
+      moneda: EUR
+    descuento:
+      cantidad: 5
+    enlacelibro:
+      isbn: "978-0-321-98765-4"
+...

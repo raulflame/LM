@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "libros": [
+    {
+      "titulo": "Librería Electrónica A",
+      "disponible": {
+        "tiempo": 24,
+        "unidad": "horas"
+      },
+      "autor": "Laura Ruiz",
+      "formato": "Rústica",
+      "publicacion": 2019,
+      "precio": {
+        "cantidad": 27.75,
+        "moneda": "EUR"
+      },
+      "descuento": {
+        "cantidad": 5
+      },
+      "enlacelibro": {
+        "isbn": "978-3-16-148411-7"
+      }
+    },
+    {
+      "titulo": "XML: Un enfoque intermedio",
+      "disponible": {
+        "tiempo": 24,
+        "unidad": "horas"
+      },
+      "autor": "Elena Torres",
+      "formato": "Rústica",
+      "publicacion": "2021-12-12",
+      "precio": {
+        "cantidad": 40.0,
+        "moneda": "EUR"
+      },
+      "descuento": {
+        "cantidad": 5
+      },
+      "enlacelibro": {
+        "isbn": "978-0-321-98765-4"
+      }
+    }
+  ]
+}

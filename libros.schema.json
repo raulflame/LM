@@ -1,0 +1,130 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "libros.schema.json",
+  "title": "libros",
+  "description": "Mis libros",
+  "type": "object",
+  "properties": {
+    "libros": {
+      "type": "array",
+      "description": "Info libros",
+      "items": {
+        "type": "object",
+        "properties": {
+          "titulo": {
+            "type": "string",
+            "description": "Titulo A"
+          },
+          "disponible": {
+            "type": "string",
+            "description": "disponiblidad",
+            "tiempo": {
+              "type": "integer",
+              "description": "tiempo"
+            },
+            "unidad": {
+              "type": "string",
+              "description": "horas"
+            }
+          },
+          "autor": {
+            "type": "string",
+            "description": "Autor del libro"
+          },
+          "formato": {
+            "type": "string",
+            "description": "Tamaño"
+          },
+          "publicacion": {
+            "type": "integer",
+            "description": "Fecha"
+          },
+          "precio": {
+            "type": "integer",
+            "description": "Fecha",
+            "cantidad": {
+              "type": "number",
+              "description": "Cantidad dinero"
+            },
+            "moneda": {
+              "type": "string",
+              "description": "Moneda"
+            }
+          },
+          "descuento": {
+            "type": "integer",
+            "description": "descuento",
+            "cantidad": {
+              "type": "integer",
+              "description": "cantidad descuento"
+            }
+          },
+          "enlacelibro": {
+            "type": "integer",
+            "description": "enlace",
+            "isbn": {
+              "type": "string",
+              "description": "ISBN Libro"
+            }
+          }
+        },
+        "titulo": {
+          "type": "string",
+          "description": "Titulo B"
+        },
+        "disponible": {
+          "type": "string",
+          "description": "disponiblidad",
+          "tiempo": {
+            "type": "integer",
+            "description": "tiempo"
+          },
+          "unidad": {
+            "type": "string",
+            "description": "horas"
+          }
+        },
+        "autor": {
+          "type": "string",
+          "description": "Autor del libro"
+        },
+        "formato": {
+          "type": "string",
+          "description": "Tamaño"
+        },
+        "publicacion": {
+          "type": "integer",
+          "description": "Fecha"
+        },
+        "precio": {
+          "type": "integer",
+          "description": "Fecha",
+          "cantidad": {
+            "type": "number",
+            "description": "Cantidad dinero"
+          },
+          "moneda": {
+            "type": "string",
+            "description": "Moneda"
+          }
+        },
+        "descuento": {
+          "type": "integer",
+          "description": "descuento",
+          "cantidad": {
+            "type": "integer",
+            "description": "cantidad descuento"
+          }
+        },
+        "enlacelibro": {
+          "type": "integer",
+          "description": "enlace",
+          "isbn": {
+            "type": "string",
+            "description": "ISBN Libro"
+          }
+        }
+      }
+    }
+  }
+}

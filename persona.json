@@ -1,0 +1,12 @@
+{
+  "$schema": "persona-schema.json",
+  "nombre": "Raul Gutierro",
+  "edad": 22,
+  "email": "rgutierro@gmail.com",
+  "direccion": {
+    "calle": "123",
+    "ciudad": "Castellon",
+    "codigoPostal": "12100"
+  },
+  "aficiones": ["leer", "viajar", "deportes"]
+}
